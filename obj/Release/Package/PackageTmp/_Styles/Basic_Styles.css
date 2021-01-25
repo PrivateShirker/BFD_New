@@ -1,0 +1,753 @@
+﻿* {
+    margin: 0px;
+    padding: 0px;
+    color: gold;
+    background-color: transparent;
+}
+
+header, section, footer, nav, article, figure, foicaption, hgroup {
+    display: block;
+}
+
+footer {
+    font-weight: bold;
+    font-size: x-large;
+    line-height: 1em;
+}
+
+th {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+td {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.pTitle {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.clear {
+    clear: both
+}
+
+.italic {
+    font-style: italic;
+    color: white;
+    font-weight: bold;
+}
+
+.centerDiv {
+    text-align: center;
+}
+
+.aLeft {
+    text-align: left;
+}
+
+.aRight {
+    text-align: right;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.inLine {
+    display: inline;
+}
+
+.inlineBlock {
+    display: inline-block;
+}
+
+.noDisplay {
+    display: none;
+}
+
+.block {
+    display: block;
+}
+
+.centerText {
+    text-align: center;
+}
+
+.autoWidth {
+    width: auto;
+}
+
+.redText {
+    color: red;
+}
+
+.blackText {
+    color: black;
+}
+
+.greenText {
+    color: green;
+}
+
+.yellowText {
+    color: yellow;
+}
+
+.lightGreenText {
+    color: lightgreen;
+}
+
+.lightBlueText {
+    color: lightblue;
+}
+
+.darkBlueText {
+    color: darkblue;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.whiteText {
+    color: white;
+}
+
+.maroonText {
+    color: maroon;
+}
+
+.darkRedText {
+    color: darkred;
+}
+
+.darkOrangeText {
+    color: darkorange;
+}
+
+.blueText {
+    color: blue;
+}
+
+.backtransparent {
+    background-color: transparent;
+    color: maroon;
+}
+
+.backGrey {
+    background-color: grey;
+    color: black;
+}
+
+
+.backMoccasin {
+    background-color: moccasin;
+    color: maroon;
+}
+
+.maroonBack {
+    background-color: maroon;
+}
+
+.backBlack {
+    background-color: black;
+    color: white;
+}
+
+.backYellow {
+    background-color: yellow;
+    color: red;
+}
+
+.backDarkBlue {
+    background-color: darkblue;
+    color: white;
+}
+
+.backLightBlue {
+    background-color: lightblue;
+    color: white;
+}
+
+.backChocolate {
+    background-color: chocolate;
+    color: yellow;
+}
+
+.backWhite {
+    background-color: white;
+    color: darkblue;
+}
+
+.lightDarkBlue {
+    background-color: lightblue;
+    color: white;
+}
+
+.inline {
+    display: inline;
+}
+
+.floatLeft {
+    float: left;
+}
+
+.floatRight {
+    float: Right;
+}
+
+.borderRight {
+    border-right: 5px solid red;
+}
+
+.autoMargin {
+    margin: 0 auto;
+}
+
+.autoMarginLeftRight {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.padding5 {
+    padding: 5px;
+}
+
+.padding10 {
+    padding: 10px;
+}
+
+.paddingHalfem {
+    padding: .5em;
+}
+
+.LeftPaddingHalfem {
+    padding-left: .5em;
+}
+
+.bottomPadding1em {
+    padding-bottom: 1em;
+}
+
+.bottomPadding2em {
+    padding-bottom: 2em;
+}
+
+.bottomPadding3em {
+    padding-bottom: 3em;
+}
+
+.bottomPadding4em {
+    padding-bottom: 4em;
+}
+
+.bottomPadding5em {
+    padding-bottom: 5em;
+}
+
+.bottomPadding6em {
+    padding-bottom: 6em;
+}
+
+.bottomPadding7em {
+    padding-bottom: 7em;
+}
+
+.leftPaddingHalfem {
+    padding-left: .5em;
+}
+
+.leftPadding1em {
+    padding-left: 1em;
+}
+
+.leftPadding3em {
+    padding-left: 3em;
+}
+
+.leftPadding20em {
+    padding-left: 20em;
+}
+
+.txtBoxPadding {
+    padding: .1em .2em;
+    box-shadow: black 5px 5px 7px;
+}
+
+.left {
+    text-align: left;
+}
+
+.topPadding1em {
+    padding-top: 1em;
+}
+
+.topPadding2em {
+    padding-top: 2em;
+}
+
+.topPadding3em {
+    padding-top: 3em;
+}
+
+.topPadding4em {
+    padding-top: 4em;
+}
+
+.topPadding5em {
+    padding-top: 5em;
+}
+
+.topPadding6em {
+    padding-top: 6em;
+}
+
+.topPadding7em {
+    padding-top: 7em;
+}
+
+.rightPadding1em {
+    padding-right: 1em;
+}
+
+.rightPadding2em {
+    padding-right: 2em;
+}
+
+.rightPadding3em {
+    padding-right: 3em;
+}
+
+.rightPadding4em {
+    padding-right: 4em;
+}
+
+.rightPadding5em {
+    padding-right: 5em;
+}
+
+.rightPadding6em {
+    padding-right: 6em;
+}
+
+.rightPadding7em {
+    padding-right: 7em;
+}
+
+.topPadding2px {
+    padding-top: 2px;
+}
+
+.topPadding3px {
+    padding-top: 3px;
+}
+
+.rightMarginHalfem {
+    margin-right: .5em;
+}
+
+.rightMargin1em {
+    margin-right: 1em;
+}
+
+.rightMargin2em {
+    margin-right: 2em;
+}
+
+.topMarginMinusHalfem {
+    margin-top: -.5em;
+}
+
+.topMarginMinus1em {
+    margin-top: -1em;
+}
+
+.topMarginQuarterem {
+    margin-top: .25em;
+}
+
+.topMarginHalfem {
+    margin-top: .5em;
+}
+
+.topMargin7em {
+    margin-top: 7em;
+}
+
+.topMargin8em {
+    margin-top: 8em;
+}
+
+.topMargin3em {
+    margin-top: 3em;
+}
+
+.topMargin3Halfem {
+    margin-top: 3.5em;
+}
+
+.topMargin2em {
+    margin-top: 2em;
+}
+
+.topMargin1em {
+    margin-top: 1em;
+}
+
+.topMargin10 {
+    margin-top: 10px;
+}
+
+.topMargin4em {
+    margin-top: 4em;
+}
+
+.topMargin5em {
+    margin-top: 5em;
+}
+
+.topMargin6em {
+    margin-top: 6em;
+}
+
+.topMargin10em {
+    margin-top: 10em;
+}
+
+.topMargin12em {
+    margin-top: 12em;
+}
+
+.topMargin20 {
+    margin-top: 20px;
+}
+
+.topMargin2 {
+    margin-top: 2px;
+}
+
+.bottomMargin1em {
+    margin-bottom: 1em;
+}
+
+.bottomMargin2 {
+    margin-bottom: 2px;
+}
+
+.bottomMargin2em {
+    margin-bottom: 2em;
+}
+
+.bottomMargin3em {
+    margin-bottom: 3em;
+}
+
+.bottomMargin4em {
+    margin-bottom: 4em;
+}
+
+.bottomMargin5em {
+    margin-bottom: 5em;
+}
+
+.bottomMargin2 {
+    margin-bottom: 2px;
+}
+
+.bottomMargin7em {
+    margin-bottom: 7em;
+}
+
+.bottomMargin15em {
+    margin-bottom: 15em;
+}
+
+.bottomMarginHalfem {
+    margin-bottom: .5em;
+}
+
+.leftMargin10px {
+    margin-left: 10px;
+}
+
+.leftMarginHalfem {
+    margin-left: .5em;
+}
+
+.leftMargin1em {
+    margin-left: 1em;
+}
+
+.leftMargin1Halfem {
+    margin-left: 1.5em;
+}
+
+
+.leftMargin2em {
+    margin-left: 2em;
+}
+
+.leftMargin3em {
+    margin-left: 3em;
+}
+
+.leftMargin4em {
+    margin-left: 4em;
+}
+
+.leftMargin5em {
+    margin-left: 5em;
+}
+
+.leftMargin6em {
+    margin-left: 6em;
+}
+
+.leftMargin7em {
+    margin-left: 7em;
+}
+
+.leftMargin8em {
+    margin-left: 8em;
+}
+
+.leftMargin8Halfem {
+    margin-left: 8.5em;
+}
+
+.leftMargin9em {
+    margin-left: 9em;
+}
+
+.leftMargin10em {
+    margin-left: 10em;
+}
+
+.leftMargin11em {
+    margin-left: 11em;
+}
+
+.leftMargin12em {
+    margin-left: 12em;
+}
+
+.leftMargin15em {
+    margin-left: 15em;
+}
+
+.leftMargin18em {
+    margin-left: 18em;
+}
+
+.leftMargin20em {
+    margin-left: 20em;
+}
+
+.leftMargin25em {
+    margin-left: 25em;
+}
+
+.leftMargin30em {
+    margin-left: 30em;
+}
+
+.underLine {
+    text-decoration: underline;
+}
+
+.txtLeft {
+    text-align: left;
+}
+
+.width5 {
+    width: 5%;
+}
+
+.width15 {
+    width: 15%;
+}
+
+.width20 {
+    width: 20%;
+}
+
+.width25 {
+    width: 25%;
+}
+
+.width30 {
+    width: 30%;
+}
+
+.width35 {
+    width: 35%;
+}
+
+.width40 {
+    width: 40%;
+}
+
+.width45 {
+    width: 45%;
+}
+
+.width55 {
+    width: 55%;
+}
+
+.width50 {
+    width: 50%;
+}
+
+.width60 {
+    width: 60%;
+}
+
+.width65 {
+    width: 65%;
+}
+
+.width70 {
+    width: 70%;
+}
+
+.width75 {
+    width: 75%;
+}
+
+.width80 {
+    width: 80%;
+}
+
+.width85 {
+    width: 85%;
+}
+
+.width90 {
+    width: 90%;
+}
+
+.width95 {
+    width: 95%
+}
+
+.width100 {
+    width: 100%;
+}
+
+.showShadow {
+    box-shadow: black 10px 10px 15px;
+}
+
+.smallShadow {
+    /*box-shadow: black 7px 7px 10px;*/
+    box-shadow: 0px 1px 15px 1px rgba(69,65,78, 0.8);
+}
+
+.whiteShadow {
+    box-shadow: white 10px 5px 10px;
+}
+
+.noShadow {
+    box-shadow: black 0 0 0;
+}
+
+.showInsideShadow {
+    box-shadow: black 10px 10px 15px inset;
+}
+
+.textShadow {
+    text-shadow: black 5px 5px 10px;
+}
+
+.regBorder {
+    border: 3px solid gold;
+    border-radius: 10px;
+}
+
+.maroonBorder {
+    border: 3px solid maroon;
+    border-radius: 10px;
+}
+
+.blueBorder {
+    border: 3px solid lightblue;
+    border-radius: 10px;
+}
+
+.yellowBorder {
+    border: 3px solid yellow;
+    border-radius: 10px;
+}
+
+.blackBorder {
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.whiteBorder {
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+.bottomredborder {
+    border-bottom: 3px solid red;
+}
+
+.topredborder {
+    border-top: 3px solid red;
+}
+
+.leftredborder {
+    border-left: 3px solid red;
+}
+
+.rightredborder {
+    border-right: 3px solid red;
+}
+
+.redBorder {
+    border: 3px solid red;
+    border-radius: 10px;
+}
+
+.thinBorder {
+    border: 2px solid darkblue;
+    border-radius: 2px;
+}
+
+.thinMaroonBorder {
+    border: 2px solid maroon;
+    border-radius: 2px;
+}
+
+.notVisible {
+    visibility: hidden;
+}
+
+.isVisible {
+    visibility: visible;
+}
+
+.fontSize1em {
+    font-size: 1em;
+}
+
+.fontSize1Point2em {
+    font-size: 1.2em;
+}
+
+
+.fontSize1_Halfem {
+    font-size: 1.5em;
+}
+
+.fontSize2em {
+    font-size: 2em;
+}
+
+.validation {
+    color: red;
+    font-size: 1em;
+}
