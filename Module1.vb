@@ -3,7 +3,6 @@
 Module Module1
     Private cs As String = My.Settings.comString
     Public loading As Boolean = True
-    Public VendorID As Integer
     Public LoggedIn As Boolean = False
     Public NumPOItems As Int16 = 5
     Public RefreshPOList As Boolean = False

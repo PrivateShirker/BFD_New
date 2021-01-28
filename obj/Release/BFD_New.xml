@@ -775,6 +775,15 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
+<member name="F:BFD_New.PurchaseOrders._pnlPoDefault">
+<summary>
+pnlPoDefault control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:BFD_New.PurchaseOrders._lstPOs">
 <summary>
 lstPOs control.
@@ -973,9 +982,27 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
+<member name="F:BFD_New.PurchaseOrders._btnEdit">
+<summary>
+btnEdit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:BFD_New.PurchaseOrders._btnDelete">
 <summary>
 btnDelete control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.PurchaseOrders._btnPrint">
+<summary>
+btnPrint control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -1000,27 +1027,288 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:BFD_New.PurchaseOrders._btnPrint">
+<member name="F:BFD_New.PurchaseOrders._pnlEditPO">
 <summary>
-btnPrint control.
+pnlEditPO control.
 </summary>
 <remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:BFD_New.PurchaseOrders._Panel1">
+<member name="F:BFD_New.PurchaseOrders._lblEditPONum">
 <summary>
-Panel1 control.
+lblEditPONum control.
 </summary>
 <remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:BFD_New.PurchaseOrders._Timer2">
+<member name="F:BFD_New.PurchaseOrders._Panel3">
 <summary>
-Timer2 control.
+Panel3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.PurchaseOrders._Label4">
+<summary>
+Label4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.PurchaseOrders._lstVendors">
+<summary>
+lstVendors control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.PurchaseOrders._Label5">
+<summary>
+Label5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.PurchaseOrders._lstTCodes">
+<summary>
+lstTCodes control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.PurchaseOrders._Label8">
+<summary>
+Label8 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.PurchaseOrders._txtPODate">
+<summary>
+txtPODate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.PurchaseOrders._Panel4">
+<summary>
+Panel4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.PurchaseOrders._Label7">
+<summary>
+Label7 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.PurchaseOrders._Label6">
+<summary>
+Label6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.PurchaseOrders._Label9">
+<summary>
+Label9 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.PurchaseOrders._Label10">
+<summary>
+Label10 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.PurchaseOrders._txtQuantity1">
+<summary>
+txtQuantity1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.PurchaseOrders._txtItem1">
+<summary>
+txtItem1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.PurchaseOrders._txtCost1">
+<summary>
+txtCost1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.PurchaseOrders._txtQuantity2">
+<summary>
+txtQuantity2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.PurchaseOrders._txtItem2">
+<summary>
+txtItem2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.PurchaseOrders._txtCost2">
+<summary>
+txtCost2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.PurchaseOrders._txtQuantity3">
+<summary>
+txtQuantity3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.PurchaseOrders._txtItem3">
+<summary>
+txtItem3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.PurchaseOrders._txtCost3">
+<summary>
+txtCost3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.PurchaseOrders._txtQuantity4">
+<summary>
+txtQuantity4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.PurchaseOrders._txtItem4">
+<summary>
+txtItem4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.PurchaseOrders._txtCost4">
+<summary>
+txtCost4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.PurchaseOrders._txtQuantity5">
+<summary>
+txtQuantity5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.PurchaseOrders._txtItem5">
+<summary>
+txtItem5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.PurchaseOrders._txtCost5">
+<summary>
+txtCost5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.PurchaseOrders._pnlEditButs">
+<summary>
+pnlEditButs control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.PurchaseOrders._btnEditSave">
+<summary>
+btnEditSave control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.PurchaseOrders._btnEditCancel">
+<summary>
+btnEditCancel control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -1030,6 +1318,15 @@ To modify move field declaration from designer file to code-behind file.
 <member name="F:BFD_New.PurchaseOrders._pnlPrint">
 <summary>
 pnlPrint control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.PurchaseOrders._btnReturntoPO">
+<summary>
+btnReturntoPO control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -1165,6 +1462,60 @@ To modify move field declaration from designer file to code-behind file.
 <member name="F:BFD_New.PurchaseOrders._lblPrintVendorEMail">
 <summary>
 lblPrintVendorEMail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.PurchaseOrders._gvPrintItems">
+<summary>
+gvPrintItems control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.PurchaseOrders._lblPrintTotalCost">
+<summary>
+lblPrintTotalCost control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.PurchaseOrders._Label14">
+<summary>
+Label14 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.PurchaseOrders._Label13">
+<summary>
+Label13 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.PurchaseOrders._Label11">
+<summary>
+Label11 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.PurchaseOrders._Label12">
+<summary>
+Label12 control.
 </summary>
 <remarks>
 Auto-generated field.

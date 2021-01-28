@@ -51,7 +51,7 @@
                             <asp:Label ID="Label5" Font-Bold="true" Font-Size="2em" Width="100%" runat="server" Text="Items"></asp:Label>
                         </td>
                         <td class="width20 blackBorder centerDiv">
-                            <asp:Label ID="Label6" Font-Bold="true" Font-Size="2em" Width="100%" runat="server" Text="Cost"></asp:Label>
+                            <asp:Label ID="Label6" Font-Bold="true" Font-Size="2em" Width="100%" runat="server" Text="Unit Price"></asp:Label>
                         </td>
                     </tr>
                     <tr class="topMarginHalfem">

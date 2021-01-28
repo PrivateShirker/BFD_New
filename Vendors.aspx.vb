@@ -70,6 +70,7 @@
         vendIndex = lstVendors.SelectedIndex
 
         pnlSaveMess.Visible = False
+
     End Sub
 
     Protected Sub btnReturnMain_Click(sender As Object, e As EventArgs)

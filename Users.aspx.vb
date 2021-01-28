@@ -52,6 +52,8 @@
         GetUserData()
 
         pnlSaveMess.Visible = False
+        lstUsers.Enabled = True
+
     End Sub
 
     Protected Sub btnReturnMain_Click(sender As Object, e As EventArgs)

@@ -47,7 +47,7 @@
             lstTCodes.DataBind()
 
             lstVendors.SelectedIndex = -1
-            lstVendors.SelectedIndex = -1
+            lstTCodes.SelectedIndex = -1
 
             txtPODate.Text = DateTime.Today
         End If
