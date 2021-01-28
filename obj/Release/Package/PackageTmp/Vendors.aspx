@@ -13,7 +13,7 @@
 <body>
     <form id="form1" runat="server">
         <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
-        <p class="pTitle topMargin1em centerText">Bfd Vendors</p>
+        <p class="pTitle topMargin1em centerText">BFD Administration<br />Edit Vendors</p>
         <hr class="myHr" />
         <asp:HiddenField ID="myID" runat="server" />
         <aside class="floatLeft width20 topMargin1em yellowBorder">

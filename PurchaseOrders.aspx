@@ -13,8 +13,8 @@
 <body>
     <form id="form1" runat="server">
         <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
-        <asp:Panel ID="pnlMain" Visible="true" runat="server">
-            <p class="pTitle topMargin1em centerText bottomMargin2em">Bfd Administration<br />Purchase Orders</p>
+        <asp:Panel ID="pnlMain" BackColor="Maroon" Visible="true" runat="server">
+            <p class="pTitle topMargin1em centerText">Bfd Administration<br />Purchase Orders</p>
             
             <hr class="myHr" />
 

@@ -802,9 +802,9 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:BFD_New.PurchaseOrders._ShowPO">
+<member name="F:BFD_New.PurchaseOrders._pnlShowPO">
 <summary>
-ShowPO control.
+pnlShowPO control.
 </summary>
 <remarks>
 Auto-generated field.

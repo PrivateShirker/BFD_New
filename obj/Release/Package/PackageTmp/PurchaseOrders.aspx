@@ -13,8 +13,8 @@
 <body>
     <form id="form1" runat="server">
         <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
-        <asp:Panel ID="pnlMain" Visible="true" runat="server">
-            <p class="pTitle topMargin1em centerText bottomMargin2em">Bfd Administration<br />Purchase Orders</p>
+        <asp:Panel ID="pnlMain" BackColor="Maroon" Visible="true" runat="server">
+            <p class="pTitle topMargin1em centerText">Bfd Administration<br />Purchase Orders</p>
             
             <hr class="myHr" />
 
@@ -28,14 +28,14 @@
                         <asp:ListBox ID="lstPOs" Font-Size="Large" CssClass="leftMargin1em topMargin1em" Width="90%" runat="server" style="min-height:30em;" OnSelectedIndexChanged="lstPOs_SelectedIndexChanged" AutoPostBack="True"></asp:ListBox>
                     </aside>
 
-                    <div class="floatLeft maroonBack topMargin1em leftMargin1em width75 maroonBorder showShadow" style="min-height:30em; background-color:white;">
-                        <asp:Panel ID="pnlDefault" BackColor="White" Visible="true" runat="server">
+                    <section class="floatLeft maroonBack topMargin1em leftMargin1em width75 maroonBorder showShadow" style="min-height:30em; background-color:white;">
+                        <asp:Panel ID="pnlDefault" BackColor="White" runat="server">
                             <div class="autoMarginLeftRight width50 topMargin8em padding10 maroonBorder showShadow">
                                 <p class="pTitle centerText maroonText" style="background-color:white;">Please select a Purchase Order.</p>
                             </div>
                         </asp:Panel>
 
-                        <asp:Panel ID="ShowPO" BackColor="White" Visible="false" runat="server">
+                        <asp:Panel ID="pnlShowPO" BackColor="White" Visible="false" runat="server">
                             <div class="blackBorder width90 autoMarginLeftRight topMargin2em padding10" style="background-color:white;">
                                 <div style="background-color:white;">
                                     <asp:Label ID="lblPONum" CssClass="leftMargin4em" BackColor="White" ForeColor="Black" Font-Size="2em" Font-Bold="true" runat="server" Text="PO Number:"></asp:Label>
@@ -115,11 +115,12 @@
                                 <asp:Button ID="btnPrint" BackColor="Gold" CssClass="inline leftMargin1em topMargin1em padding5" Visible="true" ForeColor="Maroon" Font-Bold="true" Font-Size="2em" runat="server" Text=" Print PO " OnClick="btnPrint_Click" />
                             </asp:Panel>
 
-                            <asp:Panel ID="pnlReturn" CssClass="centerDiv" runat="server">
-                                <asp:Button ID="btnReturn" BackColor="Gold" CssClass="inline bottomMargin1em topMargin1em padding5" ForeColor="Maroon" Font-Bold="true" Font-Size="2em" runat="server" Text=" Return to Main Menu " onclick="btnReturn_Click" />
-                            </asp:Panel>
                         </asp:Panel>
-                    </div>
+
+                        <asp:Panel ID="pnlReturn" CssClass="centerDiv" runat="server">
+                            <asp:Button ID="btnReturn" BackColor="Gold" CssClass="inline bottomMargin1em topMargin1em padding5" ForeColor="Maroon" Font-Bold="true" Font-Size="2em" runat="server" Text=" Return to Main Menu " onclick="btnReturn_Click" />
+                        </asp:Panel>
+                    </section>
 
                 </asp:Panel>
 
