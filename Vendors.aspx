@@ -83,6 +83,7 @@
 
                 <asp:Panel ID="VendorSaveChangesBut" Visible="true" CssClass="centerDiv maroonBack bottomMargin2em" runat="server">
                     <asp:Button ID="btnSave" BackColor="Gold" Font-Bold="true" Font-Size="1.5em" ForeColor="Maroon" runat="server" Text=" Save Changes " onclick="btnSave_Click" />
+<%--                    <asp:Button ID="btnDeleteVendor" CssClass="leftMargin1em" BackColor="Gold" Font-Bold="true" Font-Size="1.5em" ForeColor="Maroon" runat="server" Text=" Delete Vendor " onclick="btnDeleteVendor_Click" />--%>
                 </asp:Panel>
 
                 <asp:Panel ID="VendorAddButs" Visible="false" CssClass="centerDiv maroonBack bottomMargin2em" runat="server">

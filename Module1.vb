@@ -9,8 +9,12 @@ Module Module1
     Public SecurityLevel As Integer
     Public MembID As Integer
     Public myIndex As Int16
-    Public vendIndex As Int16
     Public mySaveIndex As Int16
+    Public myVendorID As Int16
+    Public myVendorName As String
+    Public vendIndex As Int16
+    Public myPONum As String
+    Public myTCode As String
 
     Public Sub Ping()
         'Note:   The Ping command does Not need "http://"

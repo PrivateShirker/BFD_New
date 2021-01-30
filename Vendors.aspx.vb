@@ -60,6 +60,12 @@
     Protected Sub lstVendors_SelectedIndexChanged(sender As Object, e As EventArgs)
         Dim sb As New StringBuilder
 
+        myVendorID = lstVendors.SelectedValue
+        myVendorName = lstVendors.SelectedItem.Text
+        vendIndex = lstVendors.SelectedIndex
+
+        pnlSaveMess.Visible = False
+
         VendorSaveChangesBut.Visible = True
 
         vendorData.Visible = True
@@ -67,7 +73,6 @@
 
         getListData()
 
-        vendIndex = lstVendors.SelectedIndex
 
         pnlSaveMess.Visible = False
 
@@ -218,6 +223,31 @@
 
     End Sub
 
+    Protected Sub btnDeleteVendor_Click(sender As Object, e As EventArgs)
+        Dim sql As String
+
+        sql = "Exec DeleteVendor " & myVendorID
+
+        Try
+            Run_Sql(sql)
+            lblSaveMess.Text = "Vendor," & myVendorName & " , was Deleted."
+            lblSaveMess.ForeColor = System.Drawing.Color.Maroon
+            pnlSaveMess.Visible = True
+
+            Load_List()
+            Try
+                lstVendors.SelectedIndex = vendIndex
+            Catch ex As Exception
+                lstVendors.SelectedIndex = vendIndex - 1
+            End Try
+
+            getListData()
+        Catch ex As Exception
+            lblSaveMess.Text = "Vendor," & myVendorName & " , was NOT Deleted."
+            lblSaveMess.ForeColor = System.Drawing.Color.Red
+            pnlSaveMess.Visible = True
+        End Try
+    End Sub
     Protected Sub btnCancelNewVendor_Click(sender As Object, e As EventArgs)
         ClearVendorBoxes()
         btnAddNew.Visible = True
@@ -243,4 +273,6 @@
     Protected Sub Timer1_Tick(sender As Object, e As EventArgs)
         Ping()
     End Sub
+
+
 End Class

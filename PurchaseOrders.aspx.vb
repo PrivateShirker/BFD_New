@@ -1,10 +1,30 @@
 ﻿Public Class PurchaseOrders
     Inherits System.Web.UI.Page
 
-    Dim ds As New DataSet
-    Dim myPONum As String
-    Dim myTCode As String
     Dim OK As Boolean = False
+
+    Sub ClearEditBoxes()
+        txtQuantity1.Text = ""
+        txtItem1.Text = ""
+        txtCost1.Text = ""
+
+        txtQuantity2.Text = ""
+        txtItem2.Text = ""
+        txtCost2.Text = ""
+
+        txtQuantity3.Text = ""
+        txtItem3.Text = ""
+        txtCost3.Text = ""
+
+        txtQuantity4.Text = ""
+        txtItem4.Text = ""
+        txtCost4.Text = ""
+
+        txtQuantity5.Text = ""
+        txtItem5.Text = ""
+        txtCost5.Text = ""
+
+    End Sub
 
     Sub FillPOForm()
         Dim sql As String
@@ -62,6 +82,8 @@
         lstTCodes.SelectedValue = myTCode
         txtPODate.Text = myOrderDate
 
+        ClearEditBoxes()
+
         sql = "Exec myPOItems '" & lstPOs.SelectedItem.Value & "'"
 
         Get_Dataset(sql, ds, "Items")
@@ -112,6 +134,7 @@
 
     Sub FillPOList()
         Dim sql As String
+        Dim ds As New DataSet
 
         sql = "EXEC Get_POs"
         Get_Dataset(sql, ds, "POs")
@@ -124,6 +147,7 @@
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         Dim sql As String
+        Dim ds As New DataSet
 
         If Not LoggedIn Then
             Response.Redirect("Default.aspx")
@@ -167,6 +191,8 @@
     End Sub
 
     Protected Sub lstPOs_SelectedIndexChanged(sender As Object, e As EventArgs)
+
+        myPONum = lstPOs.SelectedValue
 
         FillPOForm()
 
@@ -233,7 +259,7 @@
     Protected Sub btnEdit_Click(sender As Object, e As EventArgs)
         pnlEditPO.Visible = True
         pnlPoDefault.Visible = False
-        lblEditPONum.Text = "Edit PO Number: " & lstPOs.SelectedValue
+        lblEditPONum.Text = "Edit PO Number: " & myPONum
     End Sub
 
     Protected Sub btnEditCancel_Click(sender As Object, e As EventArgs)
@@ -244,6 +270,7 @@
     Protected Sub btnEditSave_Click(sender As Object, e As EventArgs)
         Dim x As Integer
         Dim sql As String
+        Dim ds As New DataSet
         Dim myPONum As String
         Dim total As Double = 0
 
