@@ -124,3 +124,126 @@ C:\myCode\BFD\obj\Release\BFD_New.pdb
 C:\myCode\BFD\obj\Release\BFD_New.vbprojAssemblyReference.cache
 C:\myCode\BFD\obj\Release\BFD_New.vbproj.CoreCompileInputs.cache
 C:\myCode\BFD\obj\Release\BFD_New.vbproj.CopyComplete
+C:\myCode\myBFD\bin\BFD_New.dll.config
+C:\myCode\myBFD\bin\BFD_New.dll
+C:\myCode\myBFD\bin\BFD_New.pdb
+C:\myCode\myBFD\bin\BFD_New.xml
+C:\myCode\myBFD\bin\roslyn\csc.exe
+C:\myCode\myBFD\bin\roslyn\csc.exe.config
+C:\myCode\myBFD\bin\roslyn\csc.rsp
+C:\myCode\myBFD\bin\roslyn\csi.exe
+C:\myCode\myBFD\bin\roslyn\csi.exe.config
+C:\myCode\myBFD\bin\roslyn\csi.rsp
+C:\myCode\myBFD\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\myCode\myBFD\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\myCode\myBFD\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\myCode\myBFD\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\myCode\myBFD\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\myCode\myBFD\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\myCode\myBFD\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\myCode\myBFD\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\myCode\myBFD\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\myCode\myBFD\bin\roslyn\Microsoft.Managed.Core.targets
+C:\myCode\myBFD\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\myCode\myBFD\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\myCode\myBFD\bin\roslyn\System.AppContext.dll
+C:\myCode\myBFD\bin\roslyn\System.Collections.Immutable.dll
+C:\myCode\myBFD\bin\roslyn\System.Console.dll
+C:\myCode\myBFD\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\myCode\myBFD\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\myCode\myBFD\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\myCode\myBFD\bin\roslyn\System.Globalization.Calendars.dll
+C:\myCode\myBFD\bin\roslyn\System.IO.Compression.dll
+C:\myCode\myBFD\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\myCode\myBFD\bin\roslyn\System.IO.FileSystem.dll
+C:\myCode\myBFD\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\myCode\myBFD\bin\roslyn\System.Net.Http.dll
+C:\myCode\myBFD\bin\roslyn\System.Net.Sockets.dll
+C:\myCode\myBFD\bin\roslyn\System.Reflection.Metadata.dll
+C:\myCode\myBFD\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\myCode\myBFD\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\myCode\myBFD\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\myCode\myBFD\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\myCode\myBFD\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\myCode\myBFD\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\myCode\myBFD\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\myCode\myBFD\bin\roslyn\System.ValueTuple.dll
+C:\myCode\myBFD\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\myCode\myBFD\bin\roslyn\System.Xml.XmlDocument.dll
+C:\myCode\myBFD\bin\roslyn\System.Xml.XPath.dll
+C:\myCode\myBFD\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\myCode\myBFD\bin\roslyn\vbc.exe
+C:\myCode\myBFD\bin\roslyn\vbc.exe.config
+C:\myCode\myBFD\bin\roslyn\vbc.rsp
+C:\myCode\myBFD\bin\roslyn\VBCSCompiler.exe
+C:\myCode\myBFD\bin\roslyn\VBCSCompiler.exe.config
+C:\myCode\myBFD\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\myCode\myBFD\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\myCode\myBFD\obj\Release\BFD_New.Resources.resources
+C:\myCode\myBFD\obj\Release\BFD_New.vbproj.GenerateResource.cache
+C:\myCode\myBFD\obj\Release\BFD_New.dll
+C:\myCode\myBFD\obj\Release\BFD_New.xml
+C:\myCode\myBFD\obj\Release\BFD_New.pdb
+C:\Users\pete\OneDrive\Current Development\myBFD\bin\BFD_New.dll.config
+C:\Users\pete\OneDrive\Current Development\myBFD\bin\BFD_New.dll
+C:\Users\pete\OneDrive\Current Development\myBFD\bin\BFD_New.pdb
+C:\Users\pete\OneDrive\Current Development\myBFD\bin\BFD_New.xml
+C:\Users\pete\OneDrive\Current Development\myBFD\bin\roslyn\csc.exe
+C:\Users\pete\OneDrive\Current Development\myBFD\bin\roslyn\csc.exe.config
+C:\Users\pete\OneDrive\Current Development\myBFD\bin\roslyn\csc.rsp
+C:\Users\pete\OneDrive\Current Development\myBFD\bin\roslyn\csi.exe
+C:\Users\pete\OneDrive\Current Development\myBFD\bin\roslyn\csi.exe.config
+C:\Users\pete\OneDrive\Current Development\myBFD\bin\roslyn\csi.rsp
+C:\Users\pete\OneDrive\Current Development\myBFD\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\pete\OneDrive\Current Development\myBFD\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\pete\OneDrive\Current Development\myBFD\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\pete\OneDrive\Current Development\myBFD\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\pete\OneDrive\Current Development\myBFD\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\pete\OneDrive\Current Development\myBFD\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\pete\OneDrive\Current Development\myBFD\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\pete\OneDrive\Current Development\myBFD\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\pete\OneDrive\Current Development\myBFD\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\pete\OneDrive\Current Development\myBFD\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\pete\OneDrive\Current Development\myBFD\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\pete\OneDrive\Current Development\myBFD\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\pete\OneDrive\Current Development\myBFD\bin\roslyn\System.AppContext.dll
+C:\Users\pete\OneDrive\Current Development\myBFD\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\pete\OneDrive\Current Development\myBFD\bin\roslyn\System.Console.dll
+C:\Users\pete\OneDrive\Current Development\myBFD\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\pete\OneDrive\Current Development\myBFD\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\pete\OneDrive\Current Development\myBFD\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\pete\OneDrive\Current Development\myBFD\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\pete\OneDrive\Current Development\myBFD\bin\roslyn\System.IO.Compression.dll
+C:\Users\pete\OneDrive\Current Development\myBFD\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\pete\OneDrive\Current Development\myBFD\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\pete\OneDrive\Current Development\myBFD\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\pete\OneDrive\Current Development\myBFD\bin\roslyn\System.Net.Http.dll
+C:\Users\pete\OneDrive\Current Development\myBFD\bin\roslyn\System.Net.Sockets.dll
+C:\Users\pete\OneDrive\Current Development\myBFD\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\pete\OneDrive\Current Development\myBFD\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\pete\OneDrive\Current Development\myBFD\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\pete\OneDrive\Current Development\myBFD\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\pete\OneDrive\Current Development\myBFD\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\pete\OneDrive\Current Development\myBFD\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\pete\OneDrive\Current Development\myBFD\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\pete\OneDrive\Current Development\myBFD\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\pete\OneDrive\Current Development\myBFD\bin\roslyn\System.ValueTuple.dll
+C:\Users\pete\OneDrive\Current Development\myBFD\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\pete\OneDrive\Current Development\myBFD\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\pete\OneDrive\Current Development\myBFD\bin\roslyn\System.Xml.XPath.dll
+C:\Users\pete\OneDrive\Current Development\myBFD\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\pete\OneDrive\Current Development\myBFD\bin\roslyn\vbc.exe
+C:\Users\pete\OneDrive\Current Development\myBFD\bin\roslyn\vbc.exe.config
+C:\Users\pete\OneDrive\Current Development\myBFD\bin\roslyn\vbc.rsp
+C:\Users\pete\OneDrive\Current Development\myBFD\bin\roslyn\VBCSCompiler.exe
+C:\Users\pete\OneDrive\Current Development\myBFD\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\pete\OneDrive\Current Development\myBFD\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\pete\OneDrive\Current Development\myBFD\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\pete\OneDrive\Current Development\myBFD\obj\Release\BFD_New.vbprojAssemblyReference.cache
+C:\Users\pete\OneDrive\Current Development\myBFD\obj\Release\BFD_New.Resources.resources
+C:\Users\pete\OneDrive\Current Development\myBFD\obj\Release\BFD_New.vbproj.GenerateResource.cache
+C:\Users\pete\OneDrive\Current Development\myBFD\obj\Release\BFD_New.vbproj.CoreCompileInputs.cache
+C:\Users\pete\OneDrive\Current Development\myBFD\obj\Release\BFD_New.vbproj.CopyComplete
+C:\Users\pete\OneDrive\Current Development\myBFD\obj\Release\BFD_New.dll
+C:\Users\pete\OneDrive\Current Development\myBFD\obj\Release\BFD_New.xml
+C:\Users\pete\OneDrive\Current Development\myBFD\obj\Release\BFD_New.pdb

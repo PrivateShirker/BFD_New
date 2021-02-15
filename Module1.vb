@@ -25,43 +25,6 @@ Module Module1
         MsgBox("Hello")
     End Sub
 
-    Public Function NextPONum() As String
-        Dim sql As String
-        Dim ds As New DataSet
-        Dim lastPO As String
-        Dim x As Int16
-        Dim y As Int16
-        Dim thisDate As Date = Date.Now
-        Dim thisYear As Integer
-        Dim n As String = ""
-
-        sql = "Exec GetLastPO"
-        Get_Dataset(sql, ds)
-
-        lastPO = ds.Tables(0).Rows(0).Item(0)
-
-        x = CInt(Mid$(lastPO, 6, 3))
-        y = CInt(Mid(lastPO, 1, 4))
-
-        x = x + 1
-
-        thisYear = Year(thisDate)
-
-        If y <> CInt(thisYear) Then
-            Return CInt(thisYear) & "-" & "001"
-        End If
-
-        If x < 10 Then
-            n = "00" + x.ToString
-        ElseIf n >= 10 And n < 100 Then
-            n = "0" + x.ToString
-        Else
-            n = x.ToString
-        End If
-
-        Return thisYear.ToString + "-" + n
-    End Function
-
     Public Sub Get_Dataset(ByVal sql As String, ByRef ds As DataSet, Optional ByVal SN As String = "Data")
         'Will return a dataset in accordance with the sql statement
 

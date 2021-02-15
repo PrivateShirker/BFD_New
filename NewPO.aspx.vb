@@ -1,6 +1,43 @@
 ﻿Public Class NewPO
     Inherits System.Web.UI.Page
 
+    Function NextPONum() As String
+        Dim sql As String
+        Dim ds As New DataSet
+        Dim lastPO As String
+        Dim x As Int16
+        Dim y As Int16
+        Dim thisDate As Date = Date.Now
+        Dim thisYear As Integer
+        Dim n As String = ""
+
+        sql = "Exec GetLastPO"
+        Get_Dataset(sql, ds)
+
+        lastPO = ds.Tables(0).Rows(0).Item(0)
+
+        x = CInt(Mid$(lastPO, 6, 3))
+        y = CInt(Mid(lastPO, 1, 4))
+
+        x = x + 1
+
+        thisYear = Year(thisDate)
+
+        If y <> CInt(thisYear) Then
+            Return CInt(thisYear) & "-" & "001"
+        End If
+
+        If x < 10 Then
+            n = "00" + x.ToString
+        ElseIf x >= 10 And x < 100 Then
+            n = "0" + x.ToString
+        Else
+            n = x.ToString
+        End If
+
+        Return thisYear.ToString + "-" + n
+    End Function
+
     Sub ClearBoxes()
         lstVendors.SelectedIndex = -1
         lstTCodes.SelectedIndex = -1
@@ -37,6 +74,8 @@
             lstVendors.DataTextField = "Name"
             lstVendors.DataValueField = "ID"
             lstVendors.DataBind()
+
+            lstVendors.SelectedIndex = -1
 
             sql = "EXEC GetTCodeList"
             Get_Dataset(sql, ds, "TCodes")
@@ -388,7 +427,10 @@
     End Sub
 
     Protected Sub Timer1_Tick(sender As Object, e As EventArgs)
-        Ping()
+        Dim sql As String = "Exec Ghost"
+        Dim ds As New DataSet
+        Get_Dataset(sql, ds)
+        lblGhost.Visible = False
     End Sub
 
 End Class

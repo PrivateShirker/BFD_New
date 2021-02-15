@@ -17,6 +17,8 @@
             <img alt="Header_Image.jpg" class="width55 topMargin1em bottomMargin1em" src="_Images/Header_Image.jpg" />
         </header>
 
+        <asp:Label ID="lblGhost" Visible="false" runat="server" Text="Label"></asp:Label>
+
         <div class="maroonBack">
             <div class="width50 autoMarginLeftRight topMargin2em maroonBack centerDiv regBorder showShadow">
                 <p class="pTitle centerText">Buchanan Engine Company #1<br />Administration Program</p>

@@ -55,6 +55,15 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
+<member name="F:BFD_New._Default._lblGhost">
+<summary>
+lblGhost control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:BFD_New._Default._txtPWD">
 <summary>
 txtPWD control.
@@ -118,6 +127,15 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
+<member name="F:BFD_New.Main._lblGhost">
+<summary>
+lblGhost control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:BFD_New.Main._Panel1">
 <summary>
 Panel1 control.
@@ -157,6 +175,15 @@ To modify move field declaration from designer file to code-behind file.
 <member name="F:BFD_New.Main._btnUsers">
 <summary>
 btnUsers control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.Main._btnReports">
+<summary>
+btnReports control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -454,6 +481,15 @@ To modify move field declaration from designer file to code-behind file.
 <member name="F:BFD_New.NewPO._ScriptManager1">
 <summary>
 ScriptManager1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.NewPO._lblGhost">
+<summary>
+lblGhost control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -766,6 +802,15 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
+<member name="F:BFD_New.PurchaseOrders._lblGhost">
+<summary>
+lblGhost control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:BFD_New.PurchaseOrders._pnlMain">
 <summary>
 pnlMain control.
@@ -787,6 +832,24 @@ To modify move field declaration from designer file to code-behind file.
 <member name="F:BFD_New.PurchaseOrders._lstPOs">
 <summary>
 lstPOs control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.PurchaseOrders._btnRefreshList">
+<summary>
+btnRefreshList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.PurchaseOrders._chkShowDeleted">
+<summary>
+chkShowDeleted control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -1540,6 +1603,393 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
+<member name="F:BFD_New.ReportMenu._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.ReportMenu._hfReport">
+<summary>
+hfReport control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.ReportMenu._hfPOSort">
+<summary>
+hfPOSort control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.ReportMenu._ScriptManager1">
+<summary>
+ScriptManager1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.ReportMenu._lblGhost">
+<summary>
+lblGhost control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.ReportMenu._pnlMenuArt">
+<summary>
+pnlMenuArt control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.ReportMenu._Panel3">
+<summary>
+Panel3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.ReportMenu._btnPOReport">
+<summary>
+btnPOReport control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.ReportMenu._btnVendor_Totals">
+<summary>
+btnVendor_Totals control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.ReportMenu._btnTCodeReport">
+<summary>
+btnTCodeReport control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.ReportMenu._btnReturntoMain">
+<summary>
+btnReturntoMain control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.ReportMenu._pnlDates">
+<summary>
+pnlDates control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.ReportMenu._lblDateTitle">
+<summary>
+lblDateTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.ReportMenu._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.ReportMenu._txtStartDate">
+<summary>
+txtStartDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.ReportMenu._Label2">
+<summary>
+Label2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.ReportMenu._txtEndDate">
+<summary>
+txtEndDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.ReportMenu._pnlErrMess">
+<summary>
+pnlErrMess control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.ReportMenu._lblErrMess">
+<summary>
+lblErrMess control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.ReportMenu._btnRunReport">
+<summary>
+btnRunReport control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.ReportMenu._btnReturntoReportMenu">
+<summary>
+btnReturntoReportMenu control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.ReportMenu._pnlTCodeReport">
+<summary>
+pnlTCodeReport control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.ReportMenu._btnTCodeReturn">
+<summary>
+btnTCodeReturn control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.ReportMenu._pnlTCDateHeader">
+<summary>
+pnlTCDateHeader control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.ReportMenu._lblTCDateHeader">
+<summary>
+lblTCDateHeader control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.ReportMenu._gvTCode_Totals1">
+<summary>
+gvTCode_Totals1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.ReportMenu._gvTCode_Totals2">
+<summary>
+gvTCode_Totals2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.ReportMenu._lblTC_Grand">
+<summary>
+lblTC_Grand control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.ReportMenu._pnlPOReport">
+<summary>
+pnlPOReport control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.ReportMenu._Button1">
+<summary>
+Button1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.ReportMenu._pnlPODateHeader">
+<summary>
+pnlPODateHeader control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.ReportMenu._lblPODateHeader">
+<summary>
+lblPODateHeader control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.ReportMenu._gvPOs1">
+<summary>
+gvPOs1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.ReportMenu._lblPO_Grand">
+<summary>
+lblPO_Grand control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.ReportMenu._pnlTotalsReportArt">
+<summary>
+pnlTotalsReportArt control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.ReportMenu._btnReturntoPO">
+<summary>
+btnReturntoPO control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.ReportMenu._pnlDateHeader">
+<summary>
+pnlDateHeader control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.ReportMenu._lblDateHeader">
+<summary>
+lblDateHeader control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.ReportMenu._gvVendor_Totals1">
+<summary>
+gvVendor_Totals1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.ReportMenu._gvVendor_Totals2">
+<summary>
+gvVendor_Totals2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.ReportMenu._lblVendor_GrandTotal">
+<summary>
+lblVendor_GrandTotal control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.ReportMenu._UpdatePanel1">
+<summary>
+UpdatePanel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.ReportMenu._Timer1">
+<summary>
+Timer1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:BFD_New.Users._form1">
 <summary>
 form1 control.
@@ -1552,6 +2002,15 @@ To modify move field declaration from designer file to code-behind file.
 <member name="F:BFD_New.Users._ScriptManager1">
 <summary>
 ScriptManager1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.Users._lblGhost">
+<summary>
+lblGhost control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -1876,6 +2335,15 @@ To modify move field declaration from designer file to code-behind file.
 <member name="F:BFD_New.Vendors._ScriptManager1">
 <summary>
 ScriptManager1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:BFD_New.Vendors._lblGhost">
+<summary>
+lblGhost control.
 </summary>
 <remarks>
 Auto-generated field.

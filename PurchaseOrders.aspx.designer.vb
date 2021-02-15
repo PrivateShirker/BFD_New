@@ -32,6 +32,15 @@ Partial Public Class PurchaseOrders
     Protected WithEvents ScriptManager1 As Global.System.Web.UI.ScriptManager
 
     '''<summary>
+    '''lblGhost control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lblGhost As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
     '''pnlMain control.
     '''</summary>
     '''<remarks>
@@ -57,6 +66,24 @@ Partial Public Class PurchaseOrders
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents lstPOs As Global.System.Web.UI.WebControls.ListBox
+
+    '''<summary>
+    '''btnRefreshList control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents btnRefreshList As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''chkShowDeleted control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents chkShowDeleted As Global.System.Web.UI.WebControls.CheckBox
 
     '''<summary>
     '''pnlDefault control.

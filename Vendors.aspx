@@ -13,6 +13,7 @@
 <body>
     <form id="form1" runat="server">
         <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+        <asp:Label ID="lblGhost" Visible="false" runat="server" Text="Label"></asp:Label>
         <p class="pTitle topMargin1em centerText">BFD Administration<br />Edit Vendors</p>
         <hr class="myHr" />
         <asp:HiddenField ID="myID" runat="server" />

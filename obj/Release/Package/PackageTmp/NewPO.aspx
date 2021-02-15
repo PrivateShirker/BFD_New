@@ -13,6 +13,7 @@
 <body>
     <form id="form1" runat="server">
         <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+        <asp:Label ID="lblGhost" Visible="false" runat="server" Text="Label"></asp:Label>
         <div class="maroonBack" style="padding-bottom:.5em;">
             <p class="pTitle topMargin1em centerText">Bfd Administration<br />Create New Purchase Order</p>
             <hr class="myHr" />
@@ -23,12 +24,13 @@
                 <div class="width80 autoMarginLeftRight">
                     <div class="floatLeft centerDiv width40 topMargin1em leftMargin1em">
                         <asp:Label ID="Label2" CssClass="block" Font-Bold="true" BackColor="White" ForeColor="Black" Font-Size="2em" runat="server" Text="Vendors"></asp:Label>
-                        <asp:ListBox ID="lstVendors" CssClass="bottomMargin1em" Font-Bold="true" BackColor="White" ForeColor="Black" Width="100%" Font-Size="1.5em" runat="server"></asp:ListBox>
+                        <asp:ListBox ID="lstVendors" CssClass="bottomMargin1em padding5" Font-Bold="true" BackColor="White" ForeColor="Black" Width="100%" Font-Size="1.5em" runat="server"></asp:ListBox>
+<%--                        <asp:DropDownList ID="lstVendors" CssClass="bottomMargin1em" Font-Bold="true" BackColor="Maroon" ForeColor="Gold" Width="100%" Font-Size="1.5em" runat="server" CausesValidation="False"></asp:DropDownList>--%>
                     </div>
 
                     <div class="floatLeft centerDiv width50 topMargin1em leftMargin2em">
                         <asp:Label ID="Label3" CssClass="block" Font-Bold="true" BackColor="White" ForeColor="Black" Font-Size="2em" runat="server" Text="TCodes"></asp:Label>
-                        <asp:ListBox ID="lstTCodes" CssClass="bottomMargin1em" Font-Bold="true" BackColor="White" ForeColor="Black" Width="100%" Font-Size="1.5em" runat="server"></asp:ListBox>
+                        <asp:ListBox ID="lstTCodes" CssClass="bottomMargin1em padding5" Font-Bold="true" BackColor="White" ForeColor="Black" Width="100%" Font-Size="1.5em" runat="server"></asp:ListBox>
                     </div>
 
                     <div class="clear"></div>

@@ -32,6 +32,15 @@ Partial Public Class Vendors
     Protected WithEvents ScriptManager1 As Global.System.Web.UI.ScriptManager
 
     '''<summary>
+    '''lblGhost control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lblGhost As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
     '''myID control.
     '''</summary>
     '''<remarks>

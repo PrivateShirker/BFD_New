@@ -13,6 +13,7 @@
 <body>
     <form id="form1" runat="server">
         <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+        <asp:Label ID="lblGhost" Visible="false" runat="server" Text="Label"></asp:Label>
         <article id="Menu" class="myArts block">
             <p class="pTitle topMargin1em centerText">Bfd Administration<br />Main Menu</p>
             <hr class="myHr" />
@@ -22,6 +23,7 @@
                 <asp:Button ID="btnNewPO" CssClass="autoMarginLeftRight block topMargin1em" Font-Size="2em" Width="50%" runat="server" Text="New Purchase Order" OnClick="btnNewPO_Click" />
                 <asp:Button ID="btnVendors" CssClass="autoMarginLeftRight block topMargin1em" Font-Size="2em" Width="50%" runat="server" Text="Edit Vendors" OnClick="btnVendors_Click" />
                 <asp:Button ID="btnUsers" CssClass="autoMarginLeftRight block topMargin1em bottomMargin1em" Font-Size="2em" Width="50%" runat="server" Text="Edit Users" OnClick="btnUsers_Click" />
+                <asp:Button ID="btnReports" CssClass="autoMarginLeftRight block topMargin1em bottomMargin1em" Font-Size="2em" Width="50%" runat="server" Text="Report Menu" OnClick="btnReports_Click" />
             </asp:Panel>
         </article>
 

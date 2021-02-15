@@ -32,6 +32,15 @@ Partial Public Class Main
     Protected WithEvents ScriptManager1 As Global.System.Web.UI.ScriptManager
 
     '''<summary>
+    '''lblGhost control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lblGhost As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
     '''Panel1 control.
     '''</summary>
     '''<remarks>
@@ -75,6 +84,15 @@ Partial Public Class Main
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents btnUsers As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''btnReports control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents btnReports As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
     '''Panel3 control.

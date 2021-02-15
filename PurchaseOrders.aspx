@@ -13,6 +13,7 @@
 <body>
     <form id="form1" runat="server">
         <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+        <asp:Label ID="lblGhost" Visible="false" runat="server" Text="Label"></asp:Label>
         <asp:Panel ID="pnlMain" BackColor="Maroon" Visible="true" runat="server">
             <p class="pTitle topMargin1em centerText">Bfd Administration<br />Purchase Orders</p>
             
@@ -26,6 +27,14 @@
                         </div>
                         <hr class="myHr" />
                         <asp:ListBox ID="lstPOs" Font-Size="Large" CssClass="leftMargin1em topMargin1em" Width="90%" runat="server" style="min-height:30em;" OnSelectedIndexChanged="lstPOs_SelectedIndexChanged" AutoPostBack="True"></asp:ListBox>
+                        
+                        <div class="centerDiv maroonBack topMargin1em">
+                            <asp:Button ID="btnRefreshList" BackColor="Gold" CssClass="padding5" Visible="true" ForeColor="Maroon" Font-Bold="true" Font-Size="1.5em" runat="server" Text="Refresh List" OnClick="btnRefreshList_Click" />
+                        </div>
+
+                        <div class="centerDiv maroonBack topMargin1em">
+                            <asp:CheckBox ID="chkShowDeleted" CssClass="block padding5" Font-Bold="true" Font-Size="1.5em" Text="  Show Deleted" OnCheckedChanged="chkShowDeleted_CheckedChanged" runat="server" AutoPostBack="True" />
+                        </div>
                     </aside>
 
                     <section class="floatLeft maroonBack topMargin1em leftMargin1em width75 maroonBorder showShadow" style="min-height:30em; background-color:white;">

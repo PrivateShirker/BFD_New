@@ -84,6 +84,11 @@ td {
     color: red;
 }
 
+.goldText
+{
+    color:gold;
+}
+
 .blackText {
     color: black;
 }
@@ -140,6 +145,10 @@ td {
     color: black;
 }
 
+.backGold {
+    background-color: gold;
+    color: maroon;
+}
 
 .backMoccasin {
     background-color: moccasin;

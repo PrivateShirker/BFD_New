@@ -35,6 +35,10 @@
         Dim myOrderDate As String
         Dim x As Int16 = 1
 
+        If lstPOs.SelectedIndex = -1 Then
+            Exit Sub
+        End If
+
         myPONum = lstPOs.SelectedItem.Value
 
         sql = "Exec Get_MyPO '" & myPONum + "'"
@@ -145,6 +149,19 @@
         lstPOs.DataBind()
     End Sub
 
+    Sub FillDeletedPOList()
+        Dim sql As String
+        Dim ds As New DataSet
+
+        sql = "EXEC Get_Deleted_POs"
+        Get_Dataset(sql, ds, "POs")
+
+        lstPOs.DataSource = ds.Tables("POs")
+        lstPOs.DataTextField = "PO"
+        lstPOs.DataValueField = "PONum"
+        lstPOs.DataBind()
+    End Sub
+
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         Dim sql As String
         Dim ds As New DataSet
@@ -182,6 +199,8 @@
 
             lstVendors.SelectedIndex = -1
             lstTCodes.SelectedIndex = -1
+
+            chkShowDeleted.Checked = False
         End If
 
         If Not IsPostBack Or RefreshPOList Then
@@ -210,10 +229,6 @@
     Protected Sub btnPrint_Click(sender As Object, e As EventArgs)
         pnlMain.Visible = False
         pnlPrint.Visible = True
-    End Sub
-
-    Protected Sub Timer1_Tick(sender As Object, e As EventArgs)
-        Ping()
     End Sub
 
     Protected Sub btnDelete_Click(sender As Object, e As EventArgs)
@@ -483,5 +498,48 @@
         pnlEditPO.Visible = False
         pnlPrint.Visible = False
 
+    End Sub
+    Protected Sub Timer1_Tick(sender As Object, e As EventArgs)
+        Dim sql As String = "Exec Ghost"
+        Dim ds As New DataSet
+        Get_Dataset(sql, ds)
+        lblGhost.Visible = False
+    End Sub
+
+    Protected Sub btnRefreshList_Click(sender As Object, e As EventArgs)
+        Dim indx As Int16
+
+        If Not chkShowDeleted.Checked Then
+            indx = lstPOs.SelectedIndex
+            FillPOList()
+            lstPOs.SelectedIndex = indx
+        Else
+            indx = lstPOs.SelectedIndex
+            FillDeletedPOList()
+            lstPOs.SelectedIndex = indx
+        End If
+    End Sub
+
+    Protected Sub chkShowDeleted_CheckedChanged(sender As Object, e As EventArgs)
+        Dim indx As Int16
+
+        If chkShowDeleted.Checked Then
+            indx = lstPOs.SelectedIndex
+            FillDeletedPOList()
+            Try
+                lstPOs.SelectedIndex = indx
+            Catch
+                lstPOs.SelectedIndex = -1
+            End Try
+        Else
+            indx = lstPOs.SelectedIndex
+            FillPOList()
+            Try
+                lstPOs.SelectedIndex = indx
+            Catch
+                lstPOs.SelectedIndex = indx - 1
+            End Try
+            FillPOForm()
+        End If
     End Sub
 End Class

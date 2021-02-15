@@ -35,6 +35,13 @@
     End Sub
 
     Protected Sub Timer1_Tick(sender As Object, e As EventArgs)
-        Ping()
+        Dim sql As String = "Exec Ghost"
+        Dim ds As New DataSet
+        Get_Dataset(sql, ds)
+        lblGhost.Visible = False
+    End Sub
+
+    Protected Sub btnReports_Click(sender As Object, e As EventArgs)
+        Response.Redirect("ReportMenu.aspx")
     End Sub
 End Class

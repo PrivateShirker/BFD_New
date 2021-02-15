@@ -96,6 +96,7 @@
     <Content Include="Main.aspx" />
     <Content Include="NewPO.aspx" />
     <Content Include="PurchaseOrders.aspx" />
+    <Content Include="ReportMenu.aspx" />
     <Content Include="Users.aspx" />
     <Content Include="Vendors.aspx" />
     <Content Include="_images\Header_Image.jpg" />
@@ -149,6 +150,13 @@
     </Compile>
     <Compile Include="PurchaseOrders.aspx.vb">
       <DependentUpon>PurchaseOrders.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ReportMenu.aspx.designer.vb">
+      <DependentUpon>ReportMenu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReportMenu.aspx.vb">
+      <DependentUpon>ReportMenu.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Users.aspx.designer.vb">
